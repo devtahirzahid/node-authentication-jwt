@@ -4,3 +4,4 @@ views/test.ejs
 .vscode
 .DS_Store
 .DS_Store?
+.env
