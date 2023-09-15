@@ -2,10 +2,15 @@
   "name": "authentication",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "nodemon app.js",
+    "scss": "node-sass  public/scss/theme.scss  public/scss/css/style.css -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Haseeb",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
