@@ -1,3 +1,5 @@
+// Here is what a service can do
+
 const addUser =
   (User) =>
   ({ name, email, password }) => {
